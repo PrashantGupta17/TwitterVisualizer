@@ -291,8 +291,8 @@ public class MapFragment extends Fragment implements ClusterManager.OnClusterCli
 
     class ExecuteTwitterRequest extends AsyncTask<String, Void, String> {
 
-        final static String CONSUMER_KEY = "SVEXHbMDogm39AdFPq255D6gC";
-        final static String CONSUMER_SECRET = "sRGFO0XBWksOivYUNazfyQszRhppejPhLFN7jI69uVe5eyzDks";
+        final static String CONSUMER_KEY = "Your personal consumer key";
+        final static String CONSUMER_SECRET = "Your personal consumer secret";
         final static String TwitterTokenURL = "https://api.twitter.com/oauth2/token";
         final static String TwitterStreamURL = "https://api.twitter.com/1.1/search/tweets.json?result_type=mixed&count=200&geocode=";
 
